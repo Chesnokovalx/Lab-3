@@ -108,7 +108,7 @@ int main() {
                 if (scanf("%ms", &element) != 1) {
                     printf("Ошибка чтения. \n");
                     free(element);
-                    break;
+                    continue;
                 } if (float_str(element)) {
                     value = atof(element);
                     free(element);
