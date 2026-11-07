@@ -86,11 +86,6 @@ int main() {
         }
     }
 
-    if (N < 2 || M < 1) {
-        printf("Некорректные данные для задачи.\n");
-        return 1;
-    }
-
     float *Matrix = malloc(M * N * sizeof(*Matrix));
 
     for (int i = 0; i < N; i++) {
