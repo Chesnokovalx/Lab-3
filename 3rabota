@@ -128,6 +128,6 @@ int main() {
         printf("S для строки %d = %f\n", i, s);
     }
 
-    free(Matrix); // освобождение памяти.
+    free(Matrix);
     return 0;
 }
